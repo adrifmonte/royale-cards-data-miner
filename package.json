@@ -1,0 +1,16 @@
+{
+  "name": "royale-cards-data-miner",
+  "version": "1.0.0",
+  "description": "Gets card data from https://www.deckshop.pro",
+  "main": "index.js",
+  "repository": "https://github.com/adrifmonte/royale-cards-data-miner.git",
+  "author": "Adriano Falsarella Monte <adrifmonte@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "testcafe firefox:headless index.js"
+  },
+  "dependencies": {
+    "eslint": "^4.18.2",
+    "testcafe": "^0.19.1"
+  }
+}
